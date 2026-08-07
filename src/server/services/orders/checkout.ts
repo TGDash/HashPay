@@ -235,8 +235,14 @@ export async function checkPendingPayments(env: AppEnv) {
     listPayments(env),
     systemSettings(env),
   ]);
+  // Include "error" channels, not just "enabled": a channel is flagged "error" by
+  // the health check (a different endpoint than the payment scan), so a transient
+  // health-check failure would otherwise strand real payments that the scan can
+  // still confirm. A successful scan's recordCheck() heals the status back to
+  // "enabled". Only admin-disabled channels are skipped — matching the manual
+  // check path (orderChannel) and the checkChannels() convention.
   const channelById = new Map(channels
-    .filter((channel) => channel.status === "enabled")
+    .filter((channel) => channel.status !== "disabled")
     .map((channel) => [channel.id, channel]));
   const groups = new Map<number, Array<{ order: Order; snapshot: PaymentSnapshot }>>();
   for (const order of orders) {
