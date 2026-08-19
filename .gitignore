@@ -32,3 +32,4 @@ pnpm-debug.log*
 .DS_Store
 .idea/
 .vscode/
+plugins/woocommerce-hashpay.zip
