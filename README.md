@@ -325,6 +325,7 @@ X-Signature: <base64-rsa-sha256-signature>
 | [EgdeKey](https://github.com/TGDash/HashPay/wiki/配置教程-%E2%80%90-EgdeKey) | 运行在Cloudflare Wokers 上的发卡系统 |
 | [易支付接口](https://ezfp.cn/doc.html) | 大部分发卡、商城项目均支持易支付接口 |
 | [WHMCS](https://github.com/ZeroTwoDa/whmcs-hashpay-gateway) | 由 [@ZeroTwoDa](https://github.com/ZeroTwoDa) 维护 |
+| [WooCommerce](plugins/woocommerce-hashpay/README.md) | WordPress插件 支持经典收银台 |
 
 ## 🔧 维护
 

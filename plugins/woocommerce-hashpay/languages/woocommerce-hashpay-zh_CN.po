@@ -1,0 +1,119 @@
+# Copyright (C) 2026 HashPay contributors
+# This file is distributed under the Apache-2.0 license.
+msgid ""
+msgstr ""
+"Project-Id-Version: HashPay for WooCommerce 0.1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/TGDash/HashPay/issues\n"
+"POT-Creation-Date: 2026-08-19 00:00+0000\n"
+"PO-Revision-Date: 2026-08-19 00:00+0000\n"
+"Last-Translator: HashPay contributors\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: woocommerce-hashpay\n"
+
+#: woocommerce-hashpay.php:5
+msgid "Accept cryptocurrency payments through a self-hosted HashPay instance."
+msgstr "通过自托管 HashPay 实例接收加密货币付款。"
+
+#: includes/class-wc-gateway-hashpay.php:12
+msgid "HashPay"
+msgstr "HashPay"
+
+#: includes/class-wc-gateway-hashpay.php:13
+msgid "Accept cryptocurrency through your self-hosted HashPay checkout."
+msgstr "通过您的自托管 HashPay 收银台接收加密货币付款。"
+
+#: includes/class-wc-gateway-hashpay.php:28
+msgid "Enable/Disable"
+msgstr "启用/禁用"
+
+#: includes/class-wc-gateway-hashpay.php:30
+msgid "Enable HashPay payments"
+msgstr "启用 HashPay 支付"
+
+#: includes/class-wc-gateway-hashpay.php:34
+msgid "Title"
+msgstr "标题"
+
+#: includes/class-wc-gateway-hashpay.php:36
+#: includes/class-wc-gateway-hashpay.php:19
+#: includes/class-wc-hashpay-blocks.php:41
+msgid "Cryptocurrency"
+msgstr "加密货币支付"
+
+#: includes/class-wc-gateway-hashpay.php:38
+msgid "The payment method name shown at checkout."
+msgstr "在结账页向客户显示的支付方式名称。"
+
+#: includes/class-wc-gateway-hashpay.php:41
+msgid "Description"
+msgstr "说明"
+
+#: includes/class-wc-gateway-hashpay.php:43
+#: includes/class-wc-gateway-hashpay.php:20
+msgid "Pay securely with cryptocurrency through HashPay."
+msgstr "通过 HashPay 安全地使用加密货币付款。"
+
+#: includes/class-wc-gateway-hashpay.php:46
+msgid "HashPay URL"
+msgstr "HashPay 地址"
+
+#: includes/class-wc-gateway-hashpay.php:49
+msgid "Your HashPay instance URL without /api."
+msgstr "您的 HashPay 实例地址，不包含 /api。"
+
+#: includes/class-wc-gateway-hashpay.php:52
+msgid "Merchant ID"
+msgstr "商户 ID"
+
+#: includes/class-wc-gateway-hashpay.php:56
+msgid "RSA Private Key"
+msgstr "RSA 私钥"
+
+#: includes/class-wc-gateway-hashpay.php:59
+msgid "The PKCS#8 private key generated when the HashPay merchant was created."
+msgstr "创建 HashPay 商户时生成的 PKCS#8 私钥。"
+
+#: includes/class-wc-gateway-hashpay.php:62
+msgid "API timeout"
+msgstr "API 超时时间"
+
+#: includes/class-wc-gateway-hashpay.php:66
+msgid "Request timeout in seconds."
+msgstr "请求超时时间，单位为秒。"
+
+#: includes/class-wc-gateway-hashpay.php:69
+msgid "Debug log"
+msgstr "调试日志"
+
+#: includes/class-wc-gateway-hashpay.php:71
+msgid "Write non-sensitive API events to WooCommerce logs"
+msgstr "将非敏感 API 事件写入 WooCommerce 日志"
+
+#: includes/class-wc-gateway-hashpay.php:75
+msgid "Callback URL"
+msgstr "回调地址"
+
+#: includes/class-wc-gateway-hashpay.php:77
+msgid "Set this URL as the merchant callback in HashPay."
+msgstr "请将此地址设置为 HashPay 商户的回调地址。"
+
+#: includes/class-wc-gateway-hashpay.php:93
+msgid "Unable to load the WooCommerce order."
+msgstr "无法加载 WooCommerce 订单。"
+
+#: includes/class-wc-gateway-hashpay.php:125
+msgid "HashPay payment order created. Awaiting payment confirmation."
+msgstr "已创建 HashPay 支付订单，等待付款确认。"
+
+#: includes/class-wc-gateway-hashpay.php:130
+msgid "HashPay could not create the payment. Please try again or choose another payment method."
+msgstr "HashPay 无法创建支付订单。请重试或选择其他支付方式。"
+
+#: includes/class-wc-hashpay-callback.php:91
+msgid "HashPay payment confirmed by encrypted callback."
+msgstr "已通过加密回调确认 HashPay 付款。"
